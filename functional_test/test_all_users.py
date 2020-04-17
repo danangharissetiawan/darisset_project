@@ -21,6 +21,12 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
         self.browser.get(self.get_full_url("home"))
         self.assertIn("Risset", self.browser.title)
 
+    def test_home_files(self):
+        self.browser.get(self.live_server_url + "/robots.txt")
+        self.assertNotIn("Page Not Found at robots.txt", self.browser.title)
+        self.browser.get(self.live_server_url + "/humans.txt")
+        self.assertNotIn("Page Not Found at humans.txt", self.browser.title)
+
     # def test_h1_css(self):
     #     self.browser.get(self.get_full_url("home"))
     #     h1 = self.browser.find_element_by_tag_name("h1")

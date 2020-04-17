@@ -4,3 +4,5 @@ darisset/settings/__pycache__/
 darisset/__pycache__/
 geckodriver.log
 __pycache__/
+.coverage
+htmlcov/
