@@ -1,0 +1,43 @@
+1587111233830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile76sH1z"
+
+(firefox:4851): Gtk-WARNING **: 15:13:55.165: Theme parsing error: gtk.css:6777:29: Missing opening bracket in color definition
+
+(firefox:4851): Gtk-WARNING **: 15:13:55.165: Theme parsing error: gtk.css:6779:34: Missing opening bracket in color definition
+
+(firefox:4851): Gtk-WARNING **: 15:13:55.165: Theme parsing error: gtk.css:6785:28: Missing opening bracket in color definition
+1587111240617	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587111243151	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587111243152	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587111243152	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587111243155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(/usr/lib/firefox/firefox:4939): Gtk-WARNING **: 15:14:07.925: Theme parsing error: gtk.css:6777:29: Missing opening bracket in color definition
+
+(/usr/lib/firefox/firefox:4939): Gtk-WARNING **: 15:14:07.925: Theme parsing error: gtk.css:6779:34: Missing opening bracket in color definition
+
+(/usr/lib/firefox/firefox:4939): Gtk-WARNING **: 15:14:07.925: Theme parsing error: gtk.css:6785:28: Missing opening bracket in color definition
+
+(/usr/lib/firefox/firefox:4962): Gtk-WARNING **: 15:14:08.663: Theme parsing error: gtk.css:6777:29: Missing opening bracket in color definition
+
+(/usr/lib/firefox/firefox:4962): Gtk-WARNING **: 15:14:08.663: Theme parsing error: gtk.css:6779:34: Missing opening bracket in color definition
+
+(/usr/lib/firefox/firefox:4962): Gtk-WARNING **: 15:14:08.663: Theme parsing error: gtk.css:6785:28: Missing opening bracket in color definition
+
+(/usr/lib/firefox/firefox:5008): Gtk-WARNING **: 15:14:12.308: Theme parsing error: gtk.css:6777:29: Missing opening bracket in color definition
+
+(/usr/lib/firefox/firefox:5008): Gtk-WARNING **: 15:14:12.309: Theme parsing error: gtk.css:6779:34: Missing opening bracket in color definition
+
+(/usr/lib/firefox/firefox:5008): Gtk-WARNING **: 15:14:12.309: Theme parsing error: gtk.css:6785:28: Missing opening bracket in color definition
+1587111253840	Marionette	INFO	Listening on port 39053
+1587111253940	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1587111256414	Marionette	INFO	Stopped listening on port 39053
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x8000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
