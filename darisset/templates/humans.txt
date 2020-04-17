@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Darisset -- Developer -- @danangharis3
+
+# THANKS
+
+    Thanks to all my Blog readers, who encouraged me to write the
+    TaskBuster Django Tutorial
+
+# TECHNOLOGY COLOPHON
+    Django
+    HTML5 Boilerplate
+    Twitter Bootstrap
