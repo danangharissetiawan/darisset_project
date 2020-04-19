@@ -2,6 +2,10 @@ from selenium import webdriver
 
 from django.urls import reverse
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
+from django.utils.translation import activate
+from django.utils import formats
+
+from datetime import date
 
 # import unittest
 
@@ -26,6 +30,30 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
         self.assertNotIn("Page Not Found at robots.txt", self.browser.title)
         self.browser.get(self.live_server_url + "/humans.txt")
         self.assertNotIn("Page Not Found at humans.txt", self.browser.title)
+
+    def test_localization(self):
+        today = date.today()
+        for lang in ['en', 'id']:
+            activate(lang)
+            self.browser.get(self.get_full_url("home"))
+            local_date = self.browser.find_element_by_id("local-date")
+            non_local_date = self.browser.find_element_by_id("non-local-date")
+            self.assertEqual(formats.date_format(today, use_l10n=True),
+                             local_date.text)
+            self.assertEqual(today.strftime('%B %d, %Y'), non_local_date.text)
+
+    def test_time_zone(self):
+        for lang in ['en', 'id']:
+            activate(lang)
+            self.browser.get(self.get_full_url("home"))
+            tz = self.browser.find_element_by_id("time-tz").text
+            utc = self.browser.find_element_by_id("time-utc").text
+            ny = self.browser.find_element_by_id("time-ny").text
+            self.assertNotEqual(tz, utc)
+            self.assertNotIn(ny, [tz, utc])
+
+    # def test_internationalization(self):
+    #     for lang, 
 
     # def test_h1_css(self):
     #     self.browser.get(self.get_full_url("home"))

@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load l10n %}
+{% load tz %}
 {% block head_title %}Risset{% endblock head_title %}
 
 {% block contents %}
@@ -76,17 +78,7 @@
                 <h2>Trending</h2>
               </div>
               <div style="margin-bottom: 50px;">
-                <div class="clock m-auto" >
-                  <div class="hour">
-                    <div class="hr" id="hr"></div>
-                  </div>
-                  <div class="min">
-                    <div class="mn" id="mn"></div>
-                  </div>
-                  <div class="sec">
-                    <div class="sc" id="sc"></div>
-                  </div>
-                </div>
+              {% include 'snippets/time_zones.html' %}
               </div>
               <div class="trend-entry d-flex">
                 <div class="number align-self-start">01</div>

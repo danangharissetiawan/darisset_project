@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-19 08:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: darisset/settings/base.py:119
+msgid "English"
+msgstr ""
+
+#: darisset/settings/base.py:120
+msgid "Indonesia"
+msgstr ""
+
+#: darisset/templates/snippets/header-top.html:25
+msgid "Search..."
+msgstr "Pencarian..."
+
+#: darisset/templates/snippets/header-top.html:50
+msgid "Home"
+msgstr "Rumah"
+
+#: darisset/templates/snippets/header-top.html:53
+msgid "Categories"
+msgstr "Kategori"
+
+#: darisset/templates/snippets/header-top.html:56
+msgid "Politics"
+msgstr "Politik"
+
+#: darisset/templates/snippets/header-top.html:59
+msgid "Business"
+msgstr "Bisnis"
+
+#: darisset/templates/snippets/header-top.html:62
+msgid "Health"
+msgstr "Kesehatan"
+
+#: darisset/templates/snippets/header-top.html:64
+msgid "Design"
+msgstr "Desain"
+
+#: darisset/templates/snippets/header-top.html:66
+msgid "Sport"
+msgstr "Olahraga"
+
+#: darisset/templates/snippets/header-top.html:68
+msgid "Contact"
+msgstr "Kontak"
