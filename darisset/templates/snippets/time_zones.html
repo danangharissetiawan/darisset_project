@@ -30,6 +30,8 @@
     {{now|timezone:"America/New_York"|time:"H:i"}}
     </span></p>
     </div>
-    <h5 class="mt-0" id="local-date">{{today}}</h5>
-    <p>This is the time using your local information </p>
+    <p class="mt-0" id="local-date">{{today}}</p> <span>(local) </span>
+    {% comment %} <p>This is the time using your local information </p> {% endcomment %}
+    <p id="non-local-date">{{today|unlocalize}}</p> <span>(default)</span>
+    {% comment %} <p>This is the default time format</p> {% endcomment %}
 </div>
